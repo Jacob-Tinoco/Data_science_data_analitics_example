@@ -11,6 +11,7 @@
 
 Este repositorio contiene el proyecto completo y la documentación relacionada con el análisis de datos y modelado predictivo del sistema de bicicletas compartidas en Los Ángeles, EU. El objetivo principal del proyecto es explorar la demanda del servicio y prever el crecimiento de los planes de uso de bicicletas a través de técnicas de análisis de datos y modelos predictivos.
 ## Estructura del Proyecto:
+En este Readme tambien se encuentra implisito el informe_JT.pdf dentro del informe no se contempla 
 
 ```
 Solución_prueba_tecnica_100225_V1.5.0_JT/
@@ -49,6 +50,7 @@ Data_science_data_analitics_example/
 │   └── visualización_general.py
 │
 ├── README.md
+├── Informe_JT.pdf
 └── requirements.txt
 
 ```
