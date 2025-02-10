@@ -13,6 +13,7 @@ Este repositorio contiene el proyecto completo y la documentación relacionada c
 ## Estructura del Proyecto:
 
 ```
+Solución_prueba_tecnica_100225_V1.5.0_JT/
 Data_science_data_analitics_example/
 │
 ├── data/
@@ -22,6 +23,7 @@ Data_science_data_analitics_example/
 │
 ├── data_prosseced
 │   ├── test_set_Preproceced_090225_V1.0.0_JT
+│   └── sample_submission.csv
 │   
 ├── grafic/
 │   ├── conteo_viajes_por_año.png
