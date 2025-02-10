@@ -4,7 +4,7 @@
 
 - **Jacob Tinoco** - *Repositorio de educación* - [Jacob-Tinoco](https://github.com/Jacob-Tinoco)
 
-## Bienvenida
+## Bienvenido
 ¡Hola! 👋 Bienvenido al repositorio **Data_science_data_analitics_example**. Este proyecto contiene un la documentación y respuesta a las requisiciones de una preuba tecnica como Data Science
 
 # Descripción del Repositorio:
