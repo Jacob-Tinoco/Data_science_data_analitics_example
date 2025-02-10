@@ -5,7 +5,7 @@
 - **Jacob Tinoco** - *Repositorio de educación* - [Jacob-Tinoco](https://github.com/Jacob-Tinoco)
 
 ## Bienvenido
-¡Hola! 👋 Bienvenido al repositorio **Data_science_data_analitics_example**. Este proyecto contiene un la documentación y respuesta a las requisiciones de una preuba tecnica como Data Science
+¡Hola! 👋 Bienvenido al repositorio **Data_science_data_analitics_example**. Este proyecto contiene un la documentación y respuesta a las requisiciones de una prueba tecnica como Data Science
 
 # Descripción del Repositorio:
 
@@ -58,7 +58,7 @@ Data_science_data_analitics_example/
 ### Descripción de la Estructura
 
 - **data/**: Contiene los conjuntos de datos utilizados en el análisis para el preprocesamiento.
-- data_prosseced**/**: Contiene los conjuntos preprocesados.
+- **data_prosseced/**: Contiene los conjuntos preprocesados.
 - **grafic/**: Almacena las gráficas generadas a partir del análisis.
 - **notebook/:** Incluye el Jupyter Notebooks con los codigos de prueba para el análisis exploratorio y los modelos analíticos.
 - **notebook/grafic/**: Almacena las gráficas generadas a partir del análisis.
@@ -67,7 +67,7 @@ Data_science_data_analitics_example/
 - **requirements.txt**: Lista de dependencias necesarias para ejecutar el proyecto.
 
 ## Contenido del Repositorio:
-Datos: Conjuntos de datos originales y preprocesados utilizados en el análisis.
+Datos: Archivos .csv de datos originales y preprocesados utilizados en el análisis.
 
 Notebooks: Jupyter Notebooks con el análisis exploratorio de datos (EDA) y la implementación de modelos predictivos.
 
@@ -75,7 +75,7 @@ Scripts: Códigos en Python para la visualización de datos, preprocesamiento, y
 
 Gráficos: Visualizaciones generadas a partir del análisis, incluyendo tendencias, distribución de viajes y predicciones a futuro.
 
-Informe: Documento detallado que describe el proceso, metodología, resultados y conclusiones del proyecto.
+Informe: Documento detallado que describe el proceso, metodología de analisis, resultados y conclusiones del proyecto.
 
 ## Herramientas y Tecnologías Utilizadas:
 Lenguajes: Python
