@@ -96,6 +96,13 @@ Instala las dependencias necesarias (requirements.txt).
 
 Explora los notebooks y scripts para replicar el análisis o adaptarlo a tus necesidades.
 
+## Requerimientos del Repositorio
+Puedes ejecutar en la terminal de tu proyecto el siguinte comando para instalar los rquerimientos necesarios básicos, no olvides que para no
+  causar conflictos en tu computadora debes crear una maquina virtual y ahi instalar las dependendncias:
+  
+    ```bash
+    pip install -r requirements.txt
+     ```
 ## Actualizaciones
 Posteriormente actualizaré este archivo README para proporcionar más detalles sobre el proyecto.
 
