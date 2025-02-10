@@ -23,6 +23,7 @@ Data_science_data_analitics_example/
 │
 ├── data_prosseced
 │   ├── test_set_Preproceced_090225_V1.0.0_JT
+│   ├── train_set_Preproceced_070225_V1.1.0_JT.csv
 │   └── sample_submission.csv
 │   
 ├── grafic/
