@@ -1,0 +1,41 @@
+start_station,end_station,hour,passholder_type,count
+4214,4214,0,Walk-up,769
+4214,4214,22,Walk-up,752
+4214,4214,21,Walk-up,727
+4214,4214,23,Walk-up,686
+3030,3014,23,Monthly Pass,1926
+3030,3014,0,Monthly Pass,1392
+3030,3014,22,Monthly Pass,1061
+3030,3014,21,Monthly Pass,411
+4210,4210,23,Walk-up,518
+4210,4210,0,Walk-up,477
+4210,4210,22,Walk-up,469
+4210,4210,1,Walk-up,460
+3014,3030,14,Monthly Pass,1592
+3014,3030,15,Monthly Pass,1368
+3014,3030,13,Monthly Pass,743
+3014,3030,16,Monthly Pass,675
+4214,4215,0,Walk-up,465
+4214,4215,23,Walk-up,446
+4214,4215,22,Walk-up,362
+4214,4215,1,Walk-up,338
+4215,4215,0,Walk-up,281
+4215,4215,22,Walk-up,245
+4215,4215,1,Walk-up,242
+4215,4215,23,Walk-up,240
+3005,3005,3,Monthly Pass,210
+3005,3005,2,Monthly Pass,206
+3005,3005,4,Monthly Pass,181
+3005,3005,1,Monthly Pass,176
+4210,4215,22,Walk-up,314
+4210,4215,23,Walk-up,287
+4210,4215,21,Walk-up,276
+4210,4215,0,Walk-up,274
+4345,4345,21,Walk-up,265
+4345,4345,23,Walk-up,260
+4345,4345,0,Walk-up,222
+4345,4345,20,Walk-up,217
+3031,3005,15,Monthly Pass,201
+3031,3005,16,Monthly Pass,171
+3031,3005,1,Monthly Pass,141
+3031,3005,2,Monthly Pass,132
