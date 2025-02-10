@@ -1,37 +1,55 @@
 import pandas as pd
+from sklearn.model_selection import train_test_split
+from sklearn.linear_model import LinearRegression
+from sklearn.metrics import mean_squared_error
 import matplotlib.pyplot as plt
-import os
+import numpy as np
 
-# Cargar el conjunto de datos
 df = pd.read_csv(r"data_prosseced\test_set_Preproceced_090225_V1.0.0_JT.csv", low_memory=False)
 
-# Asegurarse de que la columna 'start_date' esté en formato de fecha
-df['start_date'] = pd.to_datetime(df['start_date'])
+df['start_datetime'] = pd.to_datetime(df['start_date'] + ' ' + df['start_hour'])
+df['year'] = df['start_datetime'].dt.year
+df['month'] = df['start_datetime'].dt.month
+df['day'] = df['start_datetime'].dt.day
+df['day_of_week'] = df['start_datetime'].dt.dayofweek 
+df['hour'] = df['start_datetime'].dt.hour
 
-# Extraer el año de la columna 'start_date'
-df['year'] = df['start_date'].dt.year
+total_trips_per_month = df.groupby(['year', 'month']).size().reset_index(name='total_trips')
+total_trips_per_month['time'] = total_trips_per_month['year'] + total_trips_per_month['month'] / 12
 
-# Contar los viajes totales por año
-total_trips_per_year = df.groupby('year').size().reset_index(name='total_trips')
+X = total_trips_per_month[['time']]  
+y = total_trips_per_month['total_trips'] 
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
-# Crear el gráfico de líneas
-plt.figure(figsize=(10, 6))
-plt.plot(total_trips_per_year['year'], total_trips_per_year['total_trips'], marker='o')
-plt.title('Predicción a 3 años de Viajes en el sistema compartido de bicilcetas, ciudad: LA\n Periodo data-set: 2016-2021')
-plt.xlabel('Año')
+model = LinearRegression()
+model.fit(X_train, y_train)
+
+y_pred = model.predict(X_test)
+
+mse = mean_squared_error(y_test, y_pred)
+print(f'Error Cuadrático Medio: {mse}')
+
+future_years_months = []
+for year in range(total_trips_per_month['year'].max(), total_trips_per_month['year'].max() + 3):
+    for month in range(1, 13): 
+        future_years_months.append(year + month / 12)
+
+future_predictions = model.predict(np.array(future_years_months).reshape(-1, 1))
+
+for year_month, prediction in zip(future_years_months, future_predictions):
+    year = int(year_month)
+    month = int((year_month - year) * 12) + 1
+    print(f'Predicción de viajes para {year}-{month:02d}: {prediction}')
+
+plt.figure(figsize=(12, 6))
+plt.scatter(X_test, y_test, color='blue', label='Datos Reales')
+plt.plot(X_test, y_pred, color='red', label='Predicción')
+plt.scatter(future_years_months, future_predictions, color='green', label='Predicción Futura', marker='x')
+plt.title('Predicción con LR a 3 años en el sistema de uso compartido de bicicletas\n Ciudad: LA')
+plt.xlabel('Periodo')
 plt.ylabel('Total de Viajes')
-plt.xticks(total_trips_per_year['year'])  # Asegurarse de que se muestren todos los años
-plt.grid()
-plt.tight_layout()
-
-# Crear la carpeta 'grafic' si no existe
-if not os.path.exists('grafic'):
-    os.makedirs('grafic')
-
-# Guardar el gráfico en la carpeta 'grafic'
-plt.savefig('grafic/conteo_viajes_por_año.png')
-
-# Mostrar el gráfico
+plt.legend()
+plt.savefig('grafic/Modelo_analitico_(LR).png')
 plt.show()
 
 
