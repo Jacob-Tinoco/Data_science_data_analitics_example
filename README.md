@@ -1,4 +1,5 @@
-# Proyecto: YOLO V3 para Programadores Nivel Intermedio
+# Proyecto: Data science example
+
 ## Autores
 
 - **Jacob Tinoco** - *Repositorio de educación* - [Jacob-Tinoco](https://github.com/Jacob-Tinoco)
