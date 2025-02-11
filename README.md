@@ -5,14 +5,14 @@
 - **Jacob Tinoco** - *Repositorio de educación* - [Jacob-Tinoco](https://github.com/Jacob-Tinoco)
 
 ## Bienvenido
-¡Hola! 👋 Bienvenido al repositorio **Data_science_data_analitics_example**. Este proyecto contiene un la documentación y respuesta a las requisiciones de una prueba tecnica como Data Science
+¡Hola! 👋 Bienvenido al repositorio **Data_science_data_analitics_example**. Este proyecto contiene la documentación y respuesta a las requisiciones de una prueba técnica como Data Science
 
 # Descripción del Repositorio:
 
 Este repositorio contiene el proyecto completo y la documentación relacionada con el análisis de datos y modelado predictivo del sistema de bicicletas compartidas en Los Ángeles, EU. El objetivo principal del proyecto es explorar la demanda del servicio y prever el crecimiento de los planes de uso de bicicletas a través de técnicas de análisis de datos y modelos predictivos.
 
 ## Disclaimer
-La dostos de entrada fueron proporcionados por parte de una prueba técnica para ser candidato como Data Scientist MD en Arkon Data, se atribuyen los datos de entrada al perfil de Salvador Garcia en Kaggle
+Los datos de entrada fueron proporcionados por parte de una prueba técnica para ser candidato como Data Scientist MD en Arkon Data, se atribuyen los datos de entrada al perfil de Salvador Garcia en Kaggle
   
 ## Estructura del Proyecto:
 En este Readme se encuentra el informe_JT.pdf dentro del informe no se contempla a si mismo en la estructura del proyecto. 
@@ -61,8 +61,8 @@ Data_science_data_analitics_example/
 
 ### Descripción de la Estructura
 
-- **data/**: Contiene los conjuntos de datos utilizados en el análisis para el preprocesamiento.
-- **data_prosseced/**: Contiene los conjuntos preprocesados.
+- **data/**: Contiene los csv de datos utilizados en el análisis para el preprocesamiento.
+- **data_prosseced/**: Contiene los csv procesados.
 - **grafic/**: Almacena las gráficas generadas a partir del análisis.
 - **notebook/:** Incluye el Jupyter Notebooks con los codigos de prueba para el análisis exploratorio y los modelos analíticos.
 - **notebook/grafic/**: Almacena las gráficas generadas a partir del análisis.
@@ -71,7 +71,7 @@ Data_science_data_analitics_example/
 - **requirements.txt**: Lista de dependencias necesarias para ejecutar el proyecto.
 
 ## Contenido del Repositorio:
-Datos: Archivos .csv de datos originales y preprocesados utilizados en el análisis.
+Datos: Archivos .csv de datos originales y procesados utilizados en el análisis.
 
 Notebooks: Jupyter Notebooks con el análisis exploratorio de datos (EDA) y la implementación de modelos predictivos.
 
@@ -82,7 +82,6 @@ Gráficos: Visualizaciones generadas a partir del análisis, incluyendo tendenci
 Informe: Documento detallado que describe el proceso, metodología de analisis, resultados y conclusiones del proyecto.
 
 ## Herramientas y Tecnologías Utilizadas:
-Lenguajes: Python
 
 Librerías: Pandas, Matplotlib, Seaborn, Scikit-learn, Prophet (Meta)
 
@@ -100,10 +99,10 @@ Clona el repositorio.
 
 Instala las dependencias necesarias (requirements.txt).
 
-Explora los notebooks y scripts para replicar el análisis o adaptarlo a tus necesidades.
+Explora los notebooks y scripts para replicar el análisis.
 
 ## Requerimientos del Repositorio
- - Puedes ejecutar en la terminal de tu proyecto el siguinte comando para instalar los rquerimientos necesarios básicos, no olvides que para no
+ - Puedes ejecutar en la terminal de tu proyecto el siguinte comando para instalar los rquerimientos necesarios, no olvides que para no
   causar conflictos en tu computadora debes crear una maquina virtual y ahi instalar las dependendncias:
   
     ```bash
