@@ -10,6 +10,10 @@
 # Descripción del Repositorio:
 
 Este repositorio contiene el proyecto completo y la documentación relacionada con el análisis de datos y modelado predictivo del sistema de bicicletas compartidas en Los Ángeles, EU. El objetivo principal del proyecto es explorar la demanda del servicio y prever el crecimiento de los planes de uso de bicicletas a través de técnicas de análisis de datos y modelos predictivos.
+
+## Disclaimer
+La dostos de entrada fueron proporcionados por parte de una prueba técnica para ser candidato como Data Scientist MD en Arkon Data, se atribuyen los datos de entrada al perfil de Salvador Garcia en Kaggle
+  
 ## Estructura del Proyecto:
 En este Readme se encuentra el informe_JT.pdf dentro del informe no se contempla a si mismo en la estructura del proyecto. 
 
