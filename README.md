@@ -1,5 +1,14 @@
 # Proyecto: Data science example
 
+Sobre la V1: main, de este repositorio:
+Al crear este repositorio se creó la documentación en un plazo de 2 días por limitaciones de tiempo. Esto de ninguna manera justifica los errores cometidos en este branche. Busca en el repositorio el branche de la Versión 2 de este reporitorio para visualizar los cambios en:
+
+-Las visualizaciones de los datos-
+-En el reporte.
+-Cambios en src.
+-Cambios en grafic.
+-Cambios en README.
+
 ## Autores
 
 - **Jacob Tinoco** - *Repositorio de educación* - [Jacob-Tinoco](https://github.com/Jacob-Tinoco)
